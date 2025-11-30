@@ -1,0 +1,35 @@
+{
+  "name": "sesame-ouvre-toi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
+    "db:generate": "prisma generate",
+    "db:reset": "prisma db push --force-reset",
+    "setup": "npm install && prisma generate && prisma db push"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.0.0",
+    "@tensorflow/tfjs": "^4.20.0",
+    "framer-motion": "^11.5.0",
+    "next": "16.0.5",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.5",
+    "prisma": "^6.0.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
